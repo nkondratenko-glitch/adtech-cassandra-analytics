@@ -1,4 +1,4 @@
-# Homework 4: Advertising Event Data in Apache Cassandra
+## Kondratenko | HW4 | Advertising Event Data in Apache Cassandra
 
 This homework models high-velocity advertising event data in Apache Cassandra. Instead of normalizing data like in MySQL, Cassandra tables are designed per query so reads stay fast for the exact access patterns required by the business.
 
