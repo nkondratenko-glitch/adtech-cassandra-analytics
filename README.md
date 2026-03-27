@@ -57,7 +57,6 @@ Used for:
 - `scripts/09_create_cassandra_schema.sh` – creates keyspace and tables
 - `scripts/10_load_cassandra_data.sh` – loads data into Cassandra
 - `scripts/11_run_demo_queries.sh` – runs sample queries through Python
-- `requirements_hw4.txt` – Python dependencies
 
 ## Important modeling note
 
@@ -100,10 +99,12 @@ python scripts/run_cassandra_queries.py
 ## Screenshots
 
 Add screenshots such as:
+- `docs/cassandra_campaign_data.png`
+- `docs/cassandra_data_demo.png`
 - `docs/cassandra_tables.png`
-- `docs/cassandra_q1_ctr.png`
-- `docs/cassandra_q3_user_history.png`
-- `docs/cassandra_q4_top_users.png`
+- `docs/cassandra_top_advertisers.png`
+- `docs/cassandra_top_users.png`
+- `docs/cassandra_user_history.png`
 
 ## Assumptions
 
