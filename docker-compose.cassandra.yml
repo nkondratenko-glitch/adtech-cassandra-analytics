@@ -1,0 +1,17 @@
+services:
+  cassandra:
+    image: cassandra:4.1
+    container_name: adtech-cassandra
+    ports:
+      - "9042:9042"
+    environment:
+      CASSANDRA_CLUSTER_NAME: adtech-cluster
+      CASSANDRA_DC: dc1
+      CASSANDRA_RACK: rack1
+      MAX_HEAP_SIZE: 1G
+      HEAP_NEWSIZE: 256M
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+
+volumes:
+  cassandra_data:
