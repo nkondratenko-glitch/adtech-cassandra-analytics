@@ -2,14 +2,6 @@
 
 This homework models high-velocity advertising event data in Apache Cassandra. Instead of normalizing data like in MySQL, Cassandra tables are designed per query so reads stay fast for the exact access patterns required by the business.
 
-## Why Cassandra
-
-Cassandra is a good fit for:
-- time-series metrics such as impressions and clicks per day
-- high write throughput for ad events
-- fast retrieval by partition key
-- denormalized, query-oriented storage
-
 ## Query-driven table design
 
 This homework uses separate tables for different read patterns:
